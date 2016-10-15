@@ -1,0 +1,65 @@
+<DOCTYPE! html>
+<html lang = "en">
+<head>
+<title>Best Twitch Streams</title>
+<link type="text/css" rel="stylesheet" href="../static/Twitch.css" />
+</head>
+<body>
+  <div>
+	<h1>Developers Choice</h1>
+    <nav>
+      <ul><li><a href = "index.html">Home</a></li>
+          <li>
+          Streams
+            <ul>
+                <li><a href = "top_pick.html">Developers Choice</a></li>
+                <li><a href = "game1.html" >Top Stream</a></li>
+            </ul>
+          </li>
+          <li>Top Games
+          <ul>
+            <li><a href = "game1.html">{{Game1}}</a></li>
+            <li><a href = "game2.html">{{Game2}}</a></li>
+            <li><a href = "game3.html">{{Game3}}</a></li>
+            <li><a href = "game4.html">{{Game4}}</a></li>
+          </ul>
+          </li>
+      </ul>
+    </nav>
+  </div>
+		<br><br>
+	<div id= "block" style="background-color: #F1F1F1; padding: 20px; margin:60px;">
+    <h2>{{Stream}}</h2>
+    <div id="vid">
+		<center><object bgcolor="#000000" 
+        data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" 
+        height="468" 
+        type="application/x-shockwave-flash" 
+        width="832" 
+        > 
+  <param name="allowFullScreen" 
+          value="true" />
+  <param name="allowNetworking" 
+          value="all" />
+  <param name="allowScriptAccess" 
+          value="always" />
+  <param name="movie" 
+          value="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" />
+  <param name="flashvars" 
+          value="channel={{channel}}&auto_play=true&start_volume=50" />
+    </object></center>
+</div>
+  <div style="padding-left:100px; padding-top: 30px">
+    <p style="font-size:1.5em"><img src="{{picture}}" alt = "No Picture" style = "width : 60px; length : 60px">&nbsp&nbsp&nbsp{{streamer}}
+    <br><br><br>
+    <p style = "font-size: 1em;">Viewers: {{current_viewers}}</p></p>
+  </div>
+	</div>
+</body>
+<div id="footer">
+  <i><small>Copyright &copy 2015 Hack Town USA Team: Twitch</small></i><br>
+  <a href="mailto:jknees@uoregon.edu" style="text-decoration: underline">jknees@uoregon.edu</a>
+  <br>
+  <a href="mailto:brandonsov@gmail.com" style="text-decoration: underline">brandonsov@gmail.com</a>
+</div>
+</html>
