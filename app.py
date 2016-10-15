@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import event, profile
 
 app = Flask(__name__)
 
@@ -12,7 +13,7 @@ def prototype():
     event2 = Event("Rec fields(South)")
     event3 = Event("Rec center building")
     event_list = [event1,event2,event3]
-    # return flask.render_template, events=event_list);
+    # return flask.render_template(index.html, events=event_list);
 
 if __name__ == "__main__":
     app.run()
