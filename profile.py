@@ -3,10 +3,9 @@ import os
 class Profile:
 	"This is the basic profile created after submitting"
 
-	def __init__(self, name, email, picture):
+	def __init__(self, name, email):
 		self.name    = _name
 		self.email   = _email
-		self.picture = _picture
 		self.sports  = []
 
 
