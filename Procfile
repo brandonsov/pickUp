@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wgsi
+web: gunicorn
