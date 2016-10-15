@@ -1,4 +1,4 @@
-class event:
+class Event:
     location = None
 
     def __init__(self, location):
@@ -6,5 +6,3 @@ class event:
 
     def get_location():
         return location;
-
-    
