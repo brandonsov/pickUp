@@ -53,8 +53,10 @@ main, #messages-card {
 }
 #messages {
   overflow-y: auto;
+  white-space: pre-wrap;
   margin-bottom: 10px;
   height: calc(100% - 80px);
+
 }
 #message-filler {
   flex-grow: 1;
