@@ -136,7 +136,7 @@ FriendlyChat.prototype.saveImageMessage = function(event) {
     // We add a message with a loading icon that will get updated with the shared image.
     var currentUser = this.auth.currentUser;
     this.messagesRef.push({
-      name: currentUser.displayName,
+      name: currentUser.displayName + " (" + currentUser.email + ")",
       imageUrl: FriendlyChat.LOADING_IMAGE_URL,
       photoUrl: currentUser.photoURL || '/images/profile_placeholder.png'
     }).then(function(data) {
