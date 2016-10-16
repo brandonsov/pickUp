@@ -1,15 +1,9 @@
-# pickUp
-QuackHack 2016 Web App - Tinder for Sports
+# Firebase: Build a Real Time Web Chat App Codelab - Final code
 
-PickUp Overview
+This folder contains the final code of the [Firebase: Build a Real Time Web Chat App Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/).
 
-Need a tennis hitting partner? Want to find players for a pick up soccer game?
-
-Connect with fellow students through PickUp to find peers who share your sports interests. 
-
-PickUp is a medium to organize events and matches players with similiar skill levels and competitiveness. PickUp's review based system allows you to screen potential playing partners for good sportsmanship and a fun experience. 
-
-Build your profile and compete with other students to climb the leaderboards. Improve your reputation by accumulating positive reviews.
-
-All users register through school email address to verify identity.
-
+You can use this app directly if you'd like to see the finished app but before you do follow the "Create a Firebase Project and Setup" step of the [Codelab instructions](https://codelabs.developers.google.com/codelabs/firebase-web/)
+ 
+Before deploying make sure you change the `<STORAGE_BUCKET>` placeholder in the [storage.rules](./storage.rules) file. 
+ 
+If you'd like to follow the step by step codelab start with the [web-start](../web-start) directory.
