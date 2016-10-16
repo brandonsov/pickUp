@@ -24,6 +24,7 @@ main, #messages-card {
 #messages-card-container {
   height: calc(100% - 150px);
   padding-bottom: 0;
+  float: left;
 }
 #messages-card {
   margin-top: 15px;
@@ -53,8 +54,10 @@ main, #messages-card {
 }
 #messages {
   overflow-y: auto;
+  white-space: pre-wrap;
   margin-bottom: 10px;
   height: calc(100% - 80px);
+
 }
 #message-filler {
   flex-grow: 1;
@@ -196,4 +199,11 @@ main, #messages-card {
 .mdl-button .material-icons {
   top: -1px;
   margin-right: 5px;
+}
+
+#Photo-div {
+  float: right;
+  width: 50em;
+  margin: 2em;
+  overflow: hidden;
 }
