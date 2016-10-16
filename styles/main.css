@@ -203,6 +203,7 @@ main, #messages-card {
 
 #Photo-div {
   float: right;
-  width: 60em;
+  width: 50em;
   margin: 2em;
+  overflow: hidden;
 }
